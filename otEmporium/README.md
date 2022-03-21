@@ -24,10 +24,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 :rocket: Run `npm i or npm install` to install all packages then You should use `ng serve --o`.
 
-## Server
-
- :electric_plug: Product server is online wiith Heroku but for user you need to run json-server. 
-
 ## Prerequisites
 
 - npm
