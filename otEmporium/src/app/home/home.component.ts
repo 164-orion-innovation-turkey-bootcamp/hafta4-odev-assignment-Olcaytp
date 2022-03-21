@@ -11,7 +11,8 @@ import { ActivatedRoute } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   foods:Food[] = [];
-  constructor(private foodService:FoodService, private route:ActivatedRoute) { }
+  constructor(private foodService:FoodService,
+    private route:ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
